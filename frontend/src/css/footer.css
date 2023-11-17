@@ -1,0 +1,6 @@
+/* Footer CSS */
+footer {
+    position: relative;
+    z-index: 2; /* Ensure a higher z-index to bring the footer to the front */
+  }
+  

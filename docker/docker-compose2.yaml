@@ -1,0 +1,18 @@
+version: '3.1'
+services:
+  jenkins:
+    build:
+      context: ./../jenkins
+      dockerfile: Dockerfile
+    privileged: true
+    user: root
+    ports:   
+      - '8443:8080'
+      - '50000:50000'
+    container_name: jenkins-lts
+    volumes:
+      - jenkins_data:/var/jenkins_home
+      
+volumes:
+  jenkins_data:  # Define a named volume for Jenkins data
+     

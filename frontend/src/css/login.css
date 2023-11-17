@@ -1,0 +1,67 @@
+
+.login-form {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .login-form h2 {
+    margin-bottom: 50px;
+  }
+  
+  .login-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .custom-button-container {
+    width: 150px; /* Adjust the width as needed */
+  }
+  
+  
+  .custom-button {
+    width: 150px; /* Adjust the width as needed */
+    height: 40px;
+    /* Add any other desired styles here */
+    margin-right: 10px; /* Add margin between the buttons if needed */
+  }
+  
+  .login-buttons {
+    display: flex;
+    justify-content: space-between; /* or any other desired alignment */
+  }
+  
+  .login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: #0056b3;
+  }
+
+  .error-message {
+    color: red;
+    font-weight: bold;
+    font-family: initial
+
+  }
+  
+  
+  

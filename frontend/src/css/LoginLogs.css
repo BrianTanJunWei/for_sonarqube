@@ -1,0 +1,61 @@
+.account-status-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* Allow elements to wrap to the next row if necessary */
+    justify-content: space-between; /* Distribute space evenly between elements */
+}
+.main-title {
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.admin-side-panel {
+    flex: 0 0 300px; /* Fixed width for the side panel */
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.main-content {
+    flex-grow: 1; /* Allow content to grow and occupy remaining space */
+    padding: 20px;
+}
+
+/* Apply padding to table cells for row spacing */
+.logs-table tbody td {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: 1px solid black; /* Add a black line below each entry */
+    font-size: large;
+    
+}
+
+/* Center-align the content in the .col-lg-9 */
+.col-lg-9 {
+    margin-left: 30%;
+}
+
+/* Add margin between columns */
+.col-md-2 {
+    margin-right: 30px; /* Adjust the margin as needed */
+    width: fit-content;
+}
+
+.row {
+    margin-left: -60px; /* Adjust the margin as needed */
+}
+
+/* Add styles for the scrollable container */
+.scrollable-container {
+    max-height: 400px; /* Set a maximum height for the scrollable container */
+    overflow-y: auto; /* Enable vertical scrolling if content overflows */
+    padding-right: 15px; /* Add some padding to avoid content overlapping with scrollbar */
+}
+
+/* Optional: Hide the horizontal scrollbar */
+.scrollable-container::-webkit-scrollbar {
+    width: 5px;
+}
+
+.scrollable-container::-webkit-scrollbar-thumb {
+    background-color: #888;
+}

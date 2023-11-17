@@ -1,0 +1,43 @@
+/* sellerProduct.css */
+
+.card {
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: Poppins, sans-serif;
+  }
+  
+  .card hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    border-bottom: 2px solid #333; 
+  }
+  
+  .card .card-text {
+    font-size: 18px;
+    margin: 10px 0;
+    font-family: Poppins, sans-serif;
+  }
+  
+  .card .btn {
+    font-size: 18px;
+    margin: 10px;
+  }
+  

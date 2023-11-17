@@ -1,0 +1,26 @@
+.logs-table {
+  margin-left: -10px;
+  font-size: 12px;
+}
+
+.logs-table table {
+  table-layout: auto;
+  border-collapse: collapse;
+}
+
+.logs-table table th,
+.logs-table table td {
+  text-align: left;
+  padding: 8px;
+  white-space: nowrap; /* Prevent line breaks within cells */
+  border: 1px solid #ddd; /* Add border back between columns */
+}
+
+.logs-table table th {
+  background-color: #3498db;
+  color: white;
+}
+
+.logs-table table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}

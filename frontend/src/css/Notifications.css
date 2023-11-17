@@ -1,0 +1,84 @@
+.container-fluid {
+    padding: 10px;
+  }
+  
+  .row {
+    margin: 0;
+  }
+  
+  .col-lg-3 {
+    /* Adjust the width of your side panel */
+    width: 25%;
+  }
+  
+  .col-lg-9 {
+    /* Adjust the width of the main content area */
+    width: 60%;
+  }
+  
+  .main-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-left: 30%;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-left: -10%;
+  }
+  
+  table, th, td {
+    border: 1px solid #ccc;
+  }
+  
+  th, td {
+    padding: 10px;
+  }
+  
+  /* Style the "Loading notifications..." message */
+  p {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Style the "You have no notifications" message */
+  td[colspan="4"] {
+    font-size: 18px;
+    font-style: italic;
+  }
+  
+  /* Style the notification rows */
+  tr {
+    background-color: #f2f2f2; /* Alternating row colors */
+  }
+  
+  /* Style the notification text */
+  td {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px; /* Adjust the value to control the roundness */
+    cursor: pointer;
+    
+    /* Center the button horizontally and vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+/* Center the delete button horizontally and vertically */
+td button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+  

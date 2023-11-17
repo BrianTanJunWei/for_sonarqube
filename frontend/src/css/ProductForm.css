@@ -1,0 +1,57 @@
+.create-account-form {
+    max-width: 400px; /* Adjust the width as needed */
+    margin: 0 auto; /* Horizontally center the form */
+    margin-top: 50px; /* Move the form down by 50px (adjust as needed) */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Center the button within the form */
+  .create-account-form .submit-button {
+    display: block;
+    margin: 0 auto;
+    width: 100px; /* Adjust the width as needed */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style form elements */
+  .create-account-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .create-account-form label {
+    font-weight: bold;
+  }
+  
+  /* Style the select element */
+  .create-account-form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .create-account-form input[type="file"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Optional: Style error messages */
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  /* Optional: Style success messages */
+  .success {
+    color: green;
+    font-size: 12px;
+  }
+  

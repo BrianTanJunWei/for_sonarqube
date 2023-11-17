@@ -1,0 +1,71 @@
+.shopping-cart {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px; /* Adjust as needed */
+  height: 400px; /* Set a fixed height for the cart */
+  background-color: white;
+  box-shadow: -3px 0px 5px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  z-index: 90;
+  overflow-y: auto; /* Add scroll when content overflows */
+}
+
+.shopping-cart h2 {
+  text-align: center;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border: 1px solid #ccc; /* Add a border around each cart item */
+  padding: 10px; /* Add padding to separate content from the border */
+}
+
+.product-image img{
+  flex-shrink: 0; /* Prevent image from shrinking */
+  width: 80px; /* Adjust as needed */
+  height: 80px; /* Adjust as needed */
+  margin-right: 10px;
+}
+
+.product-info {
+  flex-grow: 1; /* Expand to fill available space */
+}
+
+.product-info h3 {
+  margin: 0; /* Remove default margin */
+  font-size: medium;
+}
+
+.quantity-control {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #888;
+  outline: none;
+}
+
+.product-details {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.close-button:hover {
+  color: #f00; /* Change color on hover if desired */
+}

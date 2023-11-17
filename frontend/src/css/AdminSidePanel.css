@@ -1,0 +1,31 @@
+/* AdminSidePanel.css */
+
+.admin-side-panel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 200px; /* Adjust the width as needed */
+    background-color: whitesmoke; /* Adjust the background color as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Center text vertically */
+    z-index: 1; /* Ensure it's above other content */
+  }
+  
+  .admin-side-panel ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .admin-side-panel ul li {
+    margin-bottom: 10px;
+  }
+  
+  .admin-side-panel a {
+    text-decoration: none;
+    color: bla;
+    text-align: center; /* Center text horizontally */
+  }
+  
